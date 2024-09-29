@@ -32,8 +32,8 @@ Your ERNet/Data` folder should look like this:
 ## Training and Testing
 - Download the pretrained T2T-ViT-14 model[[kuakepan](https://pan.quark.cn/s/1097007f2d3d)fetch code:ZVxE] and put it into `pretrained_model/` folder.
 - Run `python train_test_eval.py --Training True --Testing True` for training, and testing. The predictions will be in `preds/` folder.
-## Testing on Our Pretrained FDNet Model
-Download our pretrained `ERNet.pth`[[kuakepan](*****)fetch code:*****] and then put it in `checkpoint/` folder. 
+## Testing on Our Pretrained ERNet Model
+Download our pretrained `ERNet.pth`[[kuakepan](https://pan.quark.cn/s/1942f1218bc8)fetch code:bXTN] and then put it in `checkpoint/` folder. 
 Run `python train_test_eval.py --Testing True` for testing. The predictions will be in `preds/` folder
 ## Results
 Our saliency maps can be downloaded from [kuakepan](https://pan.quark.cn/s/5e92d5483980)fetch code:T5FZ.
